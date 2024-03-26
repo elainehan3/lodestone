@@ -1,4 +1,3 @@
 mkdocs
-dracula
-mkdocstrings[python]
+mkdocs-dracula-theme
 markdown-include
