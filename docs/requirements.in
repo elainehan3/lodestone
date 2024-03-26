@@ -1,0 +1,4 @@
+mkdocs
+dracula
+mkdocstrings[python]
+markdown-include

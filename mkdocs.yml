@@ -1,6 +1,6 @@
 site_name: Lodestone Docs
 theme:
-    name: readthedocs
+    name: dracula
 plugins:
   - search
 markdown_extensions:
