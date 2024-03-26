@@ -1,5 +1,14 @@
 # 🧲 Integration Process
 
+=======================
+
+######Table of Contents:######
+* [Pull Requests](#pull-requests)
+* [Lodestone’s GitHub Actions Workflows](#lodestones-github-actions-workflows)
+* [Netlify](#netlify)
+
+=======================
+
 The Lodestone project uses GitHub Actions and Netlify for its Continuous Integration and Continuous Delivery system.
 
 GitHub Action workflows can be triggered when an event occurs in the repository, such as a PR or commit being created. Each workflow contains jobs which can be configured to run sequentially or in parallel. Each job runs inside its own virtual machine runner, or inside a container, and has one or more steps that either run a script or an action. Workflows are defined as YAML files placed in the .github/workflows folder of the repository.
@@ -8,7 +17,7 @@ Netlify is the hosting service Lodestone uses for the hosted web application. Th
 
 Below is a high-level overview of Lodestone’s integration process:
 
-## Pull Requests
+#### Pull Requests
 
 The Lodestone project keeps the code for the latest stable version on the main branch, and latest beta version on the dev branch. Contributors branch off one of these branches depending on the nature of their patch, and create a pull request (PR) to merge their patch back into the respective branch. 
 
@@ -16,7 +25,7 @@ If a PR contains changes to the dashboard’s codebase, the Netlify bot will pub
 
 Lodestone’s PRs do not adhere to a specific format, leading to a variety of formats being used by individual contributors with varying readability. Each PR needs at least one manual approval from another maintainer and must pass all the release pipeline checks before it can be merged.
 
-## Lodestone’s GitHub Actions Workflows
+#### Lodestone’s GitHub Actions Workflows
 
 Currently, Lodestone’s workflows are unnecessarily complex. They are over-designed for the task they are meant to do, lack comments and documentation, and some workflows lack purpose or are not used entirely. Below is an overview of Lodestone’s workflows:
 
@@ -62,7 +71,7 @@ Triggers: On push of a tag starting with v. For example, v0.5.0.
 
 This workflow is a combination of dashboard-build-and-draft.yml and core-build-and-draft.yml. The only difference is the release is named “rc” for release candidate and not developer preview, thus the artifact is stored in a different place than developer preview.
 
-## Netlify
+#### Netlify
 
 Lodestone provides a hosted version of the latest stable release of the dashboard at lodestone.cc, and the latest beta version on dev.lodestone.cc. The repository is set up with a Netlify bot observing the latest commits of main and dev. This bot publishes the dashboard to lodestone.cc and dev.lodestone.cc respectively.   
 
