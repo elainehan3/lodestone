@@ -73,7 +73,7 @@ A brief breakdown of the code is given below. Previous knowledge of Rust and Res
 in [Project Overview](../Project Overview)
 
 * Read about the 4 steps of our release pipeline in the **Release Pipeline** tab
-    * [Build](../Build Process)
     * [Integration](../Integration Process)
+    * [Build](../Build Process)
     * [Release](../Release Process)
     * [Monitoring](../Monitoring Process)
