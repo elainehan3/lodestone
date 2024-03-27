@@ -10,9 +10,10 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
 nav:
-  - 🚀 Getting Started: index.md #This is the first page you land on when you visit "Home"
+  - 🏠 Home: index.md #This is the first page you land on when you visit "Home"
+  - 🚀 Getting Started for Developers: Getting Started for Developers.md
   - 📜 README.md: Project README.md
-  - 🏠 Project Overview: Project Overview.md 
+  - 🗂️ Project Overview: Project Overview.md 
   - 👷 Release Pipeline: #This is a tab on my page as I'm using the tabs feature for navigation.
     - Release/Build Process.md #This is the first page you land on when you visit "Release Pipeline"
     - Release/Integration Process.md 
