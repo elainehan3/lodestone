@@ -75,5 +75,5 @@ in [Project Overview](../Project Overview)
 * Read about the 4 steps of our release pipeline in the **Release Pipeline** tab
     * [Integration](../Integration Process)
     * [Build](../Build Process)
-    * [Release](../Release Process)
+    * [Deployment](../Release Process)
     * [Monitoring](../Monitoring Process)

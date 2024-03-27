@@ -17,7 +17,7 @@ nav:
   - 👷 Release Pipeline: #This is a tab on my page as I'm using the tabs feature for navigation.
     - Release/Integration Process.md 
     - Release/Build Process.md 
-    - Release/Release Process.md 
+    - Release/Deployment Process.md 
     - Release/Monitoring Process.md 
   - 📚 Documentation: Read The Docs.md
  
