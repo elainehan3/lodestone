@@ -1,6 +1,5 @@
 # 📚 Documentation about the documentation
-===============================================
-
+---
 This documentation was made with MkDocs + Read the Docs. 
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org) and [readthedocs.org](https://www.readthedocs.org).

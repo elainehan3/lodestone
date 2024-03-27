@@ -1,5 +1,5 @@
 # ⛏🧱 Lodestone
-===============================================
+---
 
 Lodestone is a self-hosted, open source server hosting tool for Minecraft and other multiplayer games. 
 

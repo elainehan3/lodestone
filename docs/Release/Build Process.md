@@ -1,12 +1,12 @@
 # 🛠️ Build Process
-===============================================
+---
 
 ######Table of Contents:######
 * [Building Lodestone Core with Cargo](#building-lodestone-core-with-cargo)
 * [Building Dashboard with npm](#building-dashboard-with-npm)
 * [Building Lodestone Desktop with Cargo](#building-lodestone-desktop-with-cargo)
 
-===============================================
+---
 
 The Lodestone project aims to make it convenient for the average user with no IT experience to self-host game servers. Therefore, it is important for Lodestone to provide precompiled binaries for as many major platforms as possible. Currently, Lodestone aims to build the precompiled binary for the above three components (Dashboard, Core, Desktop) available for the following platforms and architectures:
 

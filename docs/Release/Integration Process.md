@@ -1,14 +1,11 @@
 # 🧲 Integration Process
 
-===============================================
-
+---
 ######Table of Contents:######
 * [Pull Requests](#pull-requests)
 * [Lodestone’s GitHub Actions Workflows](#lodestones-github-actions-workflows)
 * [Netlify](#netlify)
-
-===============================================
-
+---
 The Lodestone project uses GitHub Actions and Netlify for its Continuous Integration and Continuous Delivery system.
 
 GitHub Action workflows can be triggered when an event occurs in the repository, such as a PR or commit being created. Each workflow contains jobs which can be configured to run sequentially or in parallel. Each job runs inside its own virtual machine runner, or inside a container, and has one or more steps that either run a script or an action. Workflows are defined as YAML files placed in the .github/workflows folder of the repository.

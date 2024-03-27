@@ -1,5 +1,5 @@
 # 🗂️ Project Overview
-===============================================
+---
 
 The Lodestone project has three components.
 

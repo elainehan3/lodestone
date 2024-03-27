@@ -1,4 +1,5 @@
 # ⬆️ Release Process
+---
 
 When the team is satisfied with the state of the build and would like to create a release, someone with a push permission (almost always one of the senior maintainers) will tag a commit with the release’s semantic version, and push the tag to the remote. This will trigger the release.yml workflow, which will produce an unpublished release candidate build. 
 
