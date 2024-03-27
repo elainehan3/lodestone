@@ -1,4 +1,7 @@
 site_name: Lodestone Docs
+repo_name: Lodestone
+repo_url: https://github.com/Lodestone-Team/lodestone
+site_description: Documentation for the Lodestone Project
 theme:
     name: dracula
 plugins:
@@ -7,12 +10,13 @@ markdown_extensions:
   - markdown_include.include:
       base_path: .
 nav:
-  - 🏠 Project Overview: index.md #This is the first page you land on when you visit "Home"
+  - 🚀 Getting Started: index.md #This is the first page you land on when you visit "Home"
   - 📜 README.md: Project README.md
-  - 📚 Documentation: Read The Docs.md
-  - ⬆️ Release Pipeline: #This is a tab on my page as I'm using the tabs feature for navigation.
+  - 🏠 Project Overview: Project Overview.md 
+  - 👷 Release Pipeline: #This is a tab on my page as I'm using the tabs feature for navigation.
     - Release/Build Process.md #This is the first page you land on when you visit "Release Pipeline"
     - Release/Integration Process.md 
     - Release/Release Process.md 
     - Release/Monitoring Process.md 
+  - 📚 Documentation: Read The Docs.md
  
