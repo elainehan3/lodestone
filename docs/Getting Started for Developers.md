@@ -13,7 +13,7 @@ After cloning this repo, make sure you are on the `dev` branch.
 
 `./copy-hooks`    
 
-- **important**: do **NOT** run `ci-skipper on`, even though the ci-skipper package may tell you to, as it will mess with our git hooks
+- **important**: do **NOT** run `ci-skipper on`, even though the ci-skipper package may tell you to, as it will mess with our git hooks.
 
 **Setting up frontend:**
 
