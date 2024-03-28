@@ -1,6 +1,6 @@
 #### Lodestone’s GitHub Actions Workflows
 
-Below is an overview of Lodestone’s workflows:
+Below is an overview of Lodestone’s workflows.
 
 1. **ci.yml**
 
