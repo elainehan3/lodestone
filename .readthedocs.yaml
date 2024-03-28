@@ -3,7 +3,8 @@
 
 # Required
 version: 2
-# Set the version of Python and other tools you might need
+
+# Set the version of Python and other tools
 build:
   os: ubuntu-22.04
   tools:
